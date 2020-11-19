@@ -46,9 +46,14 @@
       <Label layoutX="534.0" layoutY="135.0" text="Amount" />
       <Label layoutX="609.0" layoutY="95.0" text="1010đ" />
       <Label layoutX="612.0" layoutY="135.0" text="2000đ" />
-      <Button layoutX="538.0" layoutY="288.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: red;" text="Place Order" textAlignment="CENTER" textFill="WHITE">
+      <Button layoutX="537.0" layoutY="266.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: red;" text="Place Order" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="System Bold" size="14.0" />
          </font></Button>
+      <Button layoutX="537.0" layoutY="314.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: red;" text="Rush My Order" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
