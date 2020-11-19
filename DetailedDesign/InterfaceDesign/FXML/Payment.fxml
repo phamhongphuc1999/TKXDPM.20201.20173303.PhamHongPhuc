@@ -13,7 +13,7 @@
    <children>
       <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../download.png" />
+            <Image url="@download.png" />
          </image>
       </ImageView>
       <Label layoutX="86.0" layoutY="22.0" text="PAYMENT" textFill="#1d65e3">
@@ -26,7 +26,10 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <Button layoutX="246.0" layoutY="390.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="223.0" text="Confirm payment" />
+      <Button layoutX="246.0" layoutY="390.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="223.0" style="-fx-background-color: red;" text="Confirm payment" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
       <TextField layoutX="350.0" layoutY="90.0" prefHeight="25.0" prefWidth="336.0" />
       <Label layoutX="350.0" layoutY="126.0" text="Card holder name">
          <font>

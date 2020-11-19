@@ -11,7 +11,7 @@
    <children>
       <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../download.png" />
+            <Image url="@download.png" />
          </image>
       </ImageView>
       <Label layoutX="86.0" layoutY="22.0" text="INVOICE" textFill="#1d65e3">
@@ -94,12 +94,15 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <Label layoutX="365.0" layoutY="332.0" text="200 VND">
+      <Label layoutX="365.0" layoutY="332.0" text="200 VND" textFill="#d90714">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Button layoutX="246.0" layoutY="390.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="223.0" text="Comfirm Order" />
+      <Button layoutX="246.0" layoutY="390.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="223.0" style="-fx-background-color: red;" text="Comfirm Order" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
       <AnchorPane layoutX="358.0" prefHeight="282.0" prefWidth="344.0" style="-fx-border-color: blue;" />
    </children>
 </AnchorPane>

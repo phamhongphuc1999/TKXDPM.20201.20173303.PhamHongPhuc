@@ -10,12 +10,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../download.png" />
+            <Image url="@download.png" />
          </image>
       </ImageView>
       <Label layoutX="86.0" layoutY="22.0" text="Shipping" textFill="#1d65e3">
@@ -55,7 +54,7 @@
       <TextArea layoutX="143.0" layoutY="305.0" prefHeight="60.0" prefWidth="457.0" />
       <Button layoutX="220.0" layoutY="392.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="227.0" style="-fx-background-color: red;" text="Comfirm Delivery" textFill="WHITE">
          <font>
-            <Font size="14.0" />
+            <Font name="System Bold" size="14.0" />
          </font>
       </Button>
    </children>
